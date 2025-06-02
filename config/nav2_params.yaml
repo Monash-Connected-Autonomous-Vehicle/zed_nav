@@ -1,0 +1,2 @@
+odom_topic: /zed/odom
+use_odometry: true

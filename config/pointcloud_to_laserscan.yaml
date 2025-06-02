@@ -1,0 +1,15 @@
+pointcloud_to_laserscan_node:
+  ros__parameters:
+    target_frame: "odom"
+    transform_tolerance: 0.01
+    min_height: -0.5
+    max_height: 1.0
+    angle_min: -3.14159
+    angle_max: 3.14159
+    angle_increment: 0.0087
+    scan_time: 0.0
+    range_min: 0.15
+    range_max: 20.0
+    use_inf: true
+    inf_epsilon: 1.0
+    reliability: reliable  # Force reliable QoS

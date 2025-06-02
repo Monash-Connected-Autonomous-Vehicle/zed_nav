@@ -5,8 +5,16 @@
 1. Make sure Zed SDK 4.5.2 or earlier is installed.
 2. Set up zed-ros2-wrapper using the guide: https://github.com/stereolabs/zed-ros2-wrapper
 3. Put this package "zed_nav" into the src folder. 
+4. Run following:
+```
+sudo apt install ros-humble-slam-toolbox ros-humble-pointcloud-to-laserscan ros-humble-tf2-sensor-msgs
+```
+
 
 <b>Note</b>: if it is zed-sdk code has already been set up. Just check before redownloading everything. 
+
+<b>Note</b>: The LiDAR point cloud will no longer be in the 'velodyne' frame, it will now be in 'odom'.
+
 
 #### Hardware Set up
 1. Ubuntu 22.04 + Humble Laptop
